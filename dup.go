@@ -17,6 +17,7 @@ type Product struct {
 	Password string
 }
 
+//comment
 func main() {
 	os.Remove("test.db")
 	db, err := gorm.Open("sqlite3", "test.db")
